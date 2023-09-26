@@ -1,0 +1,82 @@
+.login-background {
+  background-color: #504f4f;
+  position: relative;
+  width: 100%;
+}
+
+.frame {
+  height: 325px;
+  left: 51%;
+  position: relative;
+  top: 0;
+  width: 725px;
+}
+
+.frame-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+  top: 149px;
+}
+
+.deakin-university {
+  color: #eeeeee;
+  font-family: Helvetica;
+  font-size: 80px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 70px;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.text-weight-deakin {
+  font-weight: 700;
+}
+
+.span {
+  font-family: Helvetica;
+}
+
+.p {
+  color: #eeeeee;
+  font-family: Helvetica;
+  font-size: 16px;
+  letter-spacing: 0;
+  margin-top: -70px;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.left-side {
+  background-color: #1c1d21;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 50%;
+}
+
+.login-styling {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  left: 85%;
+  position: absolute;
+  top: 314px;
+}
+
+.p-login {
+  color: #eeeeee;
+  font-family: Helvetica;
+  font-size: 16px;
+  letter-spacing: 0;
+  margin-top: 15px;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}

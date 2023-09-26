@@ -1,0 +1,14 @@
+.content {
+    color: black;
+    border-radius: 8;
+    text-align: center;
+    position: relative;
+    font-family: "Poppins-Regular", Helvetica;
+    top: 300px;
+}
+
+.google-map {
+    top: 300px;
+    position: relative;
+    
+}

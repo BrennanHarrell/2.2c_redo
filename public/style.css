@@ -1,0 +1,135 @@
+#app {
+  background-color: #e9e9e9;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+.top-menu {
+  background-color: #504f4f;
+  height: 91px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.top-menu .image {
+  height: 77px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 226px;
+
+}
+
+#nav {
+  background-color: #268572;
+  width:100%;
+  top: 91px;
+  padding: 20px 0;
+  position: absolute;
+  left: 0;
+  text-align: center;
+  overflow: auto;
+}
+
+#nav li {
+	display: inline;
+  padding-right: 30px;
+}
+
+#nav a {
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 16px;
+  margin-right: 150px;
+  position: relative;
+  text-align: center;
+}
+
+#nav a:hover {
+  color: #504f4f;
+}
+
+#nav a.router-link-exact-active {
+  color: white;
+  background: black;
+}
+
+.content {
+  color: black;
+  border-radius: 8;
+  text-align: center;
+  position: relative;
+  font-family: "Poppins-Regular", Helvetica;
+  top: 300px;
+}
+
+.logout {
+  height: 27px;
+  right:0;
+  position: absolute;
+  top: 57px;
+  width: 95px;
+}
+
+.btn { 
+  text-decoration: 75px solid;
+}
+
+.btn:hover {
+  background: #268572;
+  color: white;
+}
+
+
+footer {
+  background-color: #504F4F;
+  height: 91px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+}
+
+
+@media only screen and (min-width: 480px) {
+  IMG.displayed {
+      width: 0px;
+      height: 0px;
+  }
+
+  .form {
+      padding: 0px 0px 100px;
+  }    
+}
+
+@media only screen and (min-width: 768px) {
+    IMG.displayed {
+      width: 0px;
+      height: 0px;
+  }
+
+  .form {
+      padding: 0px 0px 100px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  IMG.displayed {
+    width: 116px;
+    height: 40px;
+}
+
+.form {
+    padding: 0px 0px 100px;
+}
+}
